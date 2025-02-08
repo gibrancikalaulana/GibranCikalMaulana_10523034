@@ -1,0 +1,130 @@
+/* GLOBAL STYLE */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 250px;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background: #0026ff;
+}
+
+/* FORM CONTAINER */
+.form-container {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* FORM STYLING */
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #202020;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #6D2323;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #A31D1D;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #6D2323;
+    outline: none;
+}
+
+/* BUTTON */
+.btn-submit {
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #A31D1D;
+}
+
+/* BACK LINK */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+}

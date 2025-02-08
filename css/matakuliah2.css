@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    flex-grow: 1;
+    background: url('../img/bck.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+
+
+.sidebar {
+    width: 35%;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 60px;
+    margin-top: -150px; /* Tambahkan margin-top negatif untuk menggeser ke atas */
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s;
+    box-shadow: 4px 5px 2px -4px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 4px 5px 2px -4px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 4px 5px 2px -4px rgba(0,0,0,0.75) inset;
+}
+
+.navbar a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-input td {
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.background {
+    flex-grow: 1;
+    background: url('../img/bck.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.593);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit-link, .delete-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.edit-link {
+    background-color: #5C7285;
+}
+
+.delete-link {
+    background-color: #A31D1D;
+}
+
+.edit-link:hover {
+    background-color: #5c728594;
+}
+
+.delete-link:hover {
+    background-color: #a31d1d90;
+}

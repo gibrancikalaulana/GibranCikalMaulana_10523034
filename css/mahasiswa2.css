@@ -1,0 +1,140 @@
+/* GLOBAL STYLE */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(253, 244, 227, 0.8);
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid #6D2323;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #bcc0c2;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    color: #080708;
+}
+
+.btn-submit {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #fffbf3;
+    color: #2d2d2d;
+    border: solid 1px #2d2d2d;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* SHADOW STYLE */
+.container {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-group input:hover,
+.form-group select:hover {
+    border-color: #000000;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
